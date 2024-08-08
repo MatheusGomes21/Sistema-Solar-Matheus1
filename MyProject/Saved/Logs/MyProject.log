@@ -3334,3 +3334,73 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2024.08.08-18.35.13:502][236]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 2.95 sec)
 [2024.08.08-18.35.13:503][236]AssetCheck: New page: Asset Save: NewMap
 [2024.08.08-18.35.13:503][236]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/NewMap.NewMap
+[2024.08.08-18.37.57:738][654]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/StarterContent/Particles/P_Explosion.P_Explosion
+[2024.08.08-18.37.57:985][654]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.08-18.37.57:985][654]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.08-18.37.58:075][654]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.08-18.37.58:093][654]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AnimTreeEd_PreviewFloor) ...
+[2024.08.08-18.37.58:650][654]LogViewport: Scene viewport resized to 381x231, mode Windowed.
+[2024.08.08-18.37.58:694][654]LogSlate: Took 0.020679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.08.08-18.37.58:703][654]LogViewport: Scene viewport resized to 891x283, mode Windowed.
+[2024.08.08-18.37.58:887][654]LogViewport: Scene viewport resized to 891x82, mode Windowed.
+[2024.08.08-18.37.59:289][655]LogViewport: Scene viewport resized to 876x268, mode Windowed.
+[2024.08.08-18.37.59:305][655]LogViewport: Scene viewport resized to 876x82, mode Windowed.
+[2024.08.08-18.38.00:677][699]LogMeshUtilities: Finished distance field build in 2.5s - 126x126x49 sparse distance field, 1.1Mb total, 0.0Mb always loaded, 83% occupied, 802 triangles, AnimTreeEd_PreviewFloor
+[2024.08.08-18.38.02:416][783]LogSlate: Window 'P_Explosion' being destroyed
+[2024.08.08-18.38.02:433][783]LogSlate: Window 'P_Explosion' being destroyed
+[2024.08.08-18.38.02:434][783]LogCascade: Quitting Cascade. FXSystem=0x00000AF873E12EC0
+[2024.08.08-18.38.02:511][783]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.08.08-18.38.02:511][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.08-18.38.28:852][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.08.08-18.38.29:884][223]LogSlate: Window 'Save Content' being destroyed
+[2024.08.08-18.38.29:894][223]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.08-18.38.29:989][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Materials/Lava" FILE="../../../../../../Projetos/Unreal/Sistema-Solar-Matheus1/MyProject/Content/Textures/Materials/Lava.uasset" SILENT=true
+[2024.08.08-18.38.29:995][223]LogSavePackage: Moving output files for package: /Game/Textures/Materials/Lava
+[2024.08.08-18.38.29:995][223]LogSavePackage: Moving '../../../../../../Projetos/Unreal/Sistema-Solar-Matheus1/MyProject/Saved/LavaE2DFADB6468C0C0978969C9949317EF3.tmp' to '../../../../../../Projetos/Unreal/Sistema-Solar-Matheus1/MyProject/Content/Textures/Materials/Lava.uasset'
+[2024.08.08-18.38.30:012][223]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 3.07 sec)
+[2024.08.08-18.38.30:012][223]LogStall: Shutdown...
+[2024.08.08-18.38.30:016][223]LogStall: Shutdown complete.
+[2024.08.08-18.38.30:217][223]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.08.08-18.38.30:217][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.08-18.38.30:349][223]LogSlate: Window 'MyProject - Unreal Editor' being destroyed
+[2024.08.08-18.38.30:612][223]AssetCheck: New page: Asset Save: Lava
+[2024.08.08-18.38.30:612][223]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Materials/Lava.Lava
+[2024.08.08-18.38.30:616][224]Cmd: QUIT_EDITOR
+[2024.08.08-18.38.30:616][224]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.08.08-18.38.30:676][224]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.08.08-18.38.30:732][224]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.08.08-18.38.30:732][224]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.08.08-18.38.30:796][224]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.08-18.38.30:796][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.08-18.38.31:360][224]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.08.08-18.38.32:852][224]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.08.08-18.38.32:852][224]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.08.08-18.38.32:852][224]LogAudio: Display: Audio Device unregistered from world 'NewMap'.
+[2024.08.08-18.38.32:852][224]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.08.08-18.38.32:852][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.08.08-18.38.32:855][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.08.08-18.38.32:956][224]LogAudio: Display: Audio Device Manager Shutdown
+[2024.08.08-18.38.32:958][224]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.08.08-18.38.33:124][224]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.08.08-18.38.33:491][224]LogExit: Preparing to exit.
+[2024.08.08-18.38.38:406][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.08.08-18.38.38:418][224]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:418][224]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:419][224]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:420][224]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:420][224]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:420][224]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:420][224]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:420][224]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:420][224]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:421][224]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:421][224]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:421][224]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:421][224]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:421][224]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:421][224]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:421][224]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:421][224]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:421][224]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:421][224]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.08-18.38.38:422][224]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
