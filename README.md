@@ -63,7 +63,7 @@ Projeto finalizado, todos os critérios e requisitos foram alcançados.
 
 # Features
 - [x] Rotação
-- [ ] Translação
+- [x] Translação
 
 # Pré Requisitos:
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
